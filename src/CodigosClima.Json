@@ -1,0 +1,62 @@
+{
+    "0" : {
+        "name": "despejado",
+        "icons": "https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/clear-day.svg"
+    },
+    "1" : {
+        "name": "Mayormente despejado",
+        "icons": "https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/clear-day.svg"
+    },
+    "2" : {
+        "name": "Parcialmente Nublado",
+        "icons": "https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/partly-cloudy-day.svg"
+    },
+    "3" : {
+        "name": "Nublado / cubierto",
+        "icons": "https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/cloudy.svg"
+    },
+    "45" : {
+        "name": "Niebla",
+        "icons": "https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/fog.svg"
+    },
+    "46" : {
+        "name": "Niebla con escarcha",
+        "icons": "https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/haze.svg"
+    },
+    "51" : {
+        "name": "Llovizna Ligera",
+        "icons": "https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/drizzle.svg"
+    },
+    "53" : {
+        "name": "Llovizna moderada",
+        "icons": "https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/overcast-drizzle.svg"
+    },
+    "55" : {
+        "name": "Llovizna Intensa",
+        "icons": "https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/extreme-drizzle.svg"
+    },
+    "56" : {
+        "name": "Escarcha Ligera",
+        "icons": "https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/sleet.svg"
+    },
+    "57" : {
+        "name": "Escarcha Densa",
+        "icons": "https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/overcast-sleet.svg"
+    },
+    "61" : {
+        "name": "Lluvia ligera",
+        "icons": "https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/rain.svg"
+    },
+    "63" : {
+        "name": "Lluvia moderada",
+        "icons": "https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/overcast-rain.svg"
+    },
+    "65" : {
+        "name": "lluvia intensa",
+        "icons": "https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/extreme-rain.svg"
+    },
+    "66" : {
+        "name": "Lluvia fría, ligera",
+        "icons": "https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/rain.svg"
+    }
+}

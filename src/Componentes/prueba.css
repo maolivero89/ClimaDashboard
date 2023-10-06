@@ -1,0 +1,86 @@
+.cardBox {
+    float: left;
+    font-size: 1.2em;
+    margin: 1% 0 0 1%;
+    perspective: 800px;
+    transition: all 0.3s ease 0s;
+    width: 23.7%;
+  }
+
+  .cardBox:hover .card {
+    transform: rotateY(180deg);
+  }
+
+  .card {
+    background: #222;
+    cursor: default;
+    height: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.4s ease 0s;
+    width: 100%;
+    -webkit-animation: giro 1s 1;
+    animation: giro 1s 1;
+  }
+
+  .front, .back {
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    color: white;
+    display: block;
+    font-size: 1.2em;
+    height: 100%;
+    padding: 0.8em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+
+  .back {
+    transform: rotateY( 180deg);
+  }
+  
+  @keyframes giro {
+    from {
+      transform: rotateY( 180deg);
+    }
+    to {
+      transform: rotateY( 0deg);
+    }
+  }
+  
+  @-webkit-keyframes giro {
+    from {
+      transform: rotateY( 180deg);
+    }
+    to {
+      transform: rotateY( 0deg);
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+  
+    .cardBox {
+      margin-left: 2.8%;
+      margin-top: 3%;
+      width: 46%;
+    }
+  
+    .card {
+      height: 285px;
+    }
+  
+    .cardBox:last-child {
+      margin-bottom: 3%;
+    }
+  
+  }
+  
+  
+  @media screen and (max-width: 480px) {
+  
+    .cardBox {
+      width: 94.5%;
+      height: 290px;
+    }
+  
+  }

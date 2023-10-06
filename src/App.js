@@ -1,23 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import Today from './Componentes/Today';
+import Highlights from './Componentes/Highlights';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <h2 id='titulo' > DASHBOARD DE CLIMA y TRANSPORTE CON REACT Y API</h2>
+
+      <div className='Clima'>
+        <div>
+          <h3>Ciudad: </h3>
+          <h4>Dia: </h4>
+        </div>
+        <div className='GridClima'>
+          <div className='Clima1'>
+            <Today/>
+          </div>
+          
+          <div className='Clima2'>
+            <Highlights/>
+          </div>
+        </div>
+      </div>
+
+
+      <div className='AppT'>
+      <div className='Clima'>
+        <p>Proximamente DASHBOARD de Transito</p>
+      </div>
+        
+      </div>
+    
+      
+
     </div>
   );
 }

@@ -1,38 +1,118 @@
 .App {
   text-align: center;
+  background-image: linear-gradient( 135deg, #C2FFD8 10%, #465EFB 100%);
+ border-radius: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.AppT {
+  text-align: center;
+  background-color: #465EFB;
+ border-radius: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Clima .Transito {
+  flex: 1 1 0%;
+  padding:10px ;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.GridClima{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+    border: solid #2a9d8f;
+    border-radius: 15px;
+}
+
+.Clima1{
+  flex: 1 1 0%;
+  padding: 10px;
+}
+
+.Clima2{
+  flex: 1 1 0%;
+  padding: 10px;
+}
+
+.h3{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.GridTemperatura{
+  display: grid;
+  gap: 10px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ 
 }
 
-.App-link {
-  color: #61dafb;
+
+.Temperatura1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Temperatura2{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 10px;
+  align-items: center;
 }
+
+.Temperatura3{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px;
+ 
+  align-items: center;
+}
+
+.TarjetaClima{
+    margin:  20px 5px;
+    border-radius: 15px;
+    position: absolute;    
+    border: solid #2a9d8f;
+    width: 1fr;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:center;
+    cursor: pointer;
+    position: relative;    
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;   
+
+    
+} 
+
+
+
+.Icon{
+   height: 55%;
+    width: 55%;
+}
+
+
+
+/* .Transito{
+   border-radius: 2px;
+   border: solid black;
+   margin: 10px;
+}
+
+.Transito1{
+  border-radius: 2px;
+  border: solid black;
+  margin: 10px;
+} */
