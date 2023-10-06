@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/maolivero89/ClimaDashboard/static/css/main.073c9b0a.css",
+    "main.js": "/maolivero89/ClimaDashboard/static/js/main.f5c69629.js",
+    "static/js/787.838127ea.chunk.js": "/maolivero89/ClimaDashboard/static/js/787.838127ea.chunk.js",
+    "static/media/logo.svg": "/maolivero89/ClimaDashboard/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/maolivero89/ClimaDashboard/index.html",
+    "main.073c9b0a.css.map": "/maolivero89/ClimaDashboard/static/css/main.073c9b0a.css.map",
+    "main.f5c69629.js.map": "/maolivero89/ClimaDashboard/static/js/main.f5c69629.js.map",
+    "787.838127ea.chunk.js.map": "/maolivero89/ClimaDashboard/static/js/787.838127ea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.f5c69629.js"
+  ]
+}
