@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/maolivero89/ClimaDashboard/static/css/main.073c9b0a.css",
-    "main.js": "/maolivero89/ClimaDashboard/static/js/main.f5c69629.js",
+    "main.css": "/maolivero89/ClimaDashboard/static/css/main.406cbf19.css",
+    "main.js": "/maolivero89/ClimaDashboard/static/js/main.eedf17a2.js",
     "static/js/787.838127ea.chunk.js": "/maolivero89/ClimaDashboard/static/js/787.838127ea.chunk.js",
-    "static/media/logo.svg": "/maolivero89/ClimaDashboard/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/wi_dust-wind.svg": "/maolivero89/ClimaDashboard/static/media/wi_dust-wind.63873863fbdc472a3fc7c00c6d1b4a4a.svg",
+    "static/media/uv-index.svg": "/maolivero89/ClimaDashboard/static/media/uv-index.563b93403499d128af6604eff88c1d73.svg",
+    "static/media/windsock.svg": "/maolivero89/ClimaDashboard/static/media/windsock.3059f71c53e7db22e4ed64528f4ed20d.svg",
+    "static/media/humidity.svg": "/maolivero89/ClimaDashboard/static/media/humidity.351b7fd21e3ad9ff60fcec931aaf5152.svg",
+    "static/media/horizon.svg": "/maolivero89/ClimaDashboard/static/media/horizon.3f72438fe7c20c44f98b250461587dbd.svg",
+    "static/media/thermometer-colder.svg": "/maolivero89/ClimaDashboard/static/media/thermometer-colder.ac39425d1d129ae7155633667b7a0e07.svg",
+    "static/media/sunrise.svg": "/maolivero89/ClimaDashboard/static/media/sunrise.ff3d5bf5648919aa708e1c73f54859d5.svg",
+    "static/media/sunset.svg": "/maolivero89/ClimaDashboard/static/media/sunset.f20098fd0e370d9dfc8e49476f72e3b2.svg",
     "index.html": "/maolivero89/ClimaDashboard/index.html",
-    "main.073c9b0a.css.map": "/maolivero89/ClimaDashboard/static/css/main.073c9b0a.css.map",
-    "main.f5c69629.js.map": "/maolivero89/ClimaDashboard/static/js/main.f5c69629.js.map",
+    "main.406cbf19.css.map": "/maolivero89/ClimaDashboard/static/css/main.406cbf19.css.map",
+    "main.eedf17a2.js.map": "/maolivero89/ClimaDashboard/static/js/main.eedf17a2.js.map",
     "787.838127ea.chunk.js.map": "/maolivero89/ClimaDashboard/static/js/787.838127ea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.f5c69629.js"
+    "static/css/main.406cbf19.css",
+    "static/js/main.eedf17a2.js"
   ]
 }
