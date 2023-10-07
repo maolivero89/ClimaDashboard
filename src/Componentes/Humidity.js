@@ -11,6 +11,7 @@ function Humidity() {
     return(
         <>
             <img className='Icon' src={HumidityIcon} alt='Humidity'/>
+            <span>Humedad</span>
             <span>{Humedad}</span>
         </>
     )

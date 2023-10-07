@@ -10,7 +10,7 @@ function ActualyTemp() {
     return (
 <>
     <img className='Icon' src={ActTemperature} alt='Temperature'/>
-    <span>Actualy Temperature</span>   
+    <span>Temperatura Actual</span>   
     <span>{TempAct}</span> 
 </>
     );

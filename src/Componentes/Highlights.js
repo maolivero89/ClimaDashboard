@@ -7,6 +7,7 @@ import IndiceUV from './IndiceUV';
 import SunriseSunset from './SunriseSunset';
 import Visibility from './Visibility';
 import WindStatus from './WindStatus';
+import 'animate.css';
 
 
 function Highlights() {

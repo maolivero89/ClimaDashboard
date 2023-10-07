@@ -10,7 +10,7 @@ function LowTemp() {
     return (
 <>
 <img className='Icon' src={LowIcon} alt='Low-Icon'/>
-<span>Low Temperature</span>
+<span>Temperatura minima:</span>
 <span>{TempMin}</span>
 </>
     );

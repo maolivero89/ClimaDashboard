@@ -115,6 +115,13 @@
 
 
 
+.TarjetaClima:hover {
+  animation: heartBeat; 
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  
+}
+
 
 .Icon{
    height: 55%;
@@ -134,3 +141,7 @@
   border: solid black;
   margin: 10px;
 } */
+
+
+
+

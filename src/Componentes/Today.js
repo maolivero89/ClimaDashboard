@@ -4,6 +4,7 @@ import HighTemp from './HighTemperature';
 import LowTemp from './LowTemperature';
 import ActualyTemp from './ActualyTemperature';
 import CondicionClima from './CondicionClima';
+import 'animate.css';
 
 
 
@@ -16,7 +17,7 @@ function Today() {
     <h3>Today</h3>
             <div className='GridTemperatura'>
 
-              <div className='Temperatura2'>
+              <div className='Temperatura2 '>
                 <div className='TarjetaClima'>
                  <HighTemp/>              
                 </div>

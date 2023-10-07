@@ -10,7 +10,7 @@ function HighTemp() {
     return (
 <>
     <img className='Icon' src={HighIcon} alt='High-Icon'/>
-    <span> High Temperature: </span>
+    <span> Temperatura maxima: </span>
     <span>{TempMax}</span>
 </>
     );

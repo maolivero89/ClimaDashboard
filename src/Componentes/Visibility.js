@@ -13,6 +13,7 @@ function Visibility() {
     return(
         <>
             <img className='Icon' src={VisibilityIcon} alt='Humidity'/>
+            <span>Visibilidad: </span>
             <span>{Visibilidad}</span>
         </>
     )

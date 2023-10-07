@@ -8,17 +8,17 @@ function AirQuality() {
 
     function CalidadDeAire() {
         if (aqi >= 0 && aqi <= 50 ) {
-            return 'Good';
+            return 'Bueno';
         } else if (aqi >= 51 && aqi <= 100 ) {
-            return 'Moderate';
+            return 'Moderado';
         } else if (aqi >= 101 && aqi <= 150 ) {
-            return 'Unhealthy for Sensitive Groups';
+            return 'Dañino para la salud para grupos sensibles';
         } else if (aqi >= 151 && aqi <= 200 ) {
-            return 'Unhealthy';
+            return 'Dañino para la salud';
         } else if (aqi >= 201 && aqi <= 300 ) {
-            return 'Very Unhealthy';
+            return 'Muy dañino para la salud';
         } else {
-            return 'Hazardous';
+            return 'Peligroso';
         }
         
     }
@@ -28,7 +28,7 @@ function AirQuality() {
     return(
         <>
             <img className='Icon' src={AirQ} alt='Humidity'/>
-            <span>Air Quality {CalAire}</span>
+            <span>Calidad del Aire: {CalAire}</span>
             <span>{aqi}</span> 
         </>
     )
