@@ -117,8 +117,8 @@
 
 .TarjetaClima:hover {
   animation: heartBeat; 
-  animation-duration: 2s;
-  animation-delay: 0.5s;
+  animation-duration: 3s;
+  animation-delay: 0.05s;  
   
 }
 
