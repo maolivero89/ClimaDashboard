@@ -20,7 +20,8 @@ function Highlights() {
             </div>
 
             <div className='TarjetaClima'>
-                <WindStatus/>
+                <Visibility/>
+                
             </div>
 
             <div className='TarjetaClima'>
@@ -32,7 +33,7 @@ function Highlights() {
             </div>
 
             <div className='TarjetaClima'>
-                <Visibility/>
+                <WindStatus/>
             </div>
 
             <div className='TarjetaClima'>

@@ -1,6 +1,6 @@
 import '../App.css'
 import React from 'react';
-import HighIcon from '../Icons/thermometer-colder.svg'
+import HighIcon from '../Icons/thermometer-warmer.svg'
 import data from '../data.json'
 
 function HighTemp() {

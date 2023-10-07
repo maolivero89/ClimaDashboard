@@ -12,7 +12,7 @@
         "winddirection": 144,
         "weathercode": 3,
         "is_day": 1,
-        "time": "2023-09-30T13:00"
+        "time": "30-09-2023T13:00"
     },
     "hourly_units": {
         "time": "iso8601",

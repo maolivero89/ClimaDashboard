@@ -1,6 +1,8 @@
 import './App.css';
 import Today from './Componentes/Today';
 import Highlights from './Componentes/Highlights';
+import React from 'react'
+import CuidadDia from './Componentes/CiudadDia';
 
 function App() {
   return (
@@ -9,8 +11,7 @@ function App() {
 
       <div className='Clima'>
         <div>
-          <h3>Ciudad: </h3>
-          <h4>Dia: </h4>
+         <CuidadDia/>
         </div>
         <div className='GridClima'>
           <div className='Clima1'>

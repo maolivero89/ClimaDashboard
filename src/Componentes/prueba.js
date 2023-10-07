@@ -1,26 +1,38 @@
-import HighIcon from '../Icons/thermometer-colder.svg'
-import './prueba.css'
+// import './prueba.css'
+// import '../App.css';
+// import ActTemperature from '../Icons/thermometer-colder.svg'
+// import React from 'react';
+// import data from '../data.json'
+// import ActualyTemp from './ActualyTemperature';
+
+
+// function Prueba() {
+//   return (
+//     <>
+//       <div className="container-a4">
+//         <ul className="caption-style-4">
+//           <li>
+//              <img className='Icon' src={ActTemperature} alt='Temperature'/>
+//              <span>Actualy Temperature</span>
+           
+//             <div className="caption">
+//               <div className="blur" />
+//               <div className="caption-text">
+//                 <ActualyTemp/>
+
+//               </div>
+//             </div>
+//           </li>
+//         </ul>
+//       </div>
+
+//     </>
+//   )
+// }
+
+// export default Prueba;
 
 
 
-function Prueba() {
-    return (
-        <>
-<div className="boxesContainer">
-  <div className="cardBox">
-    <div className="card">
-      <div className="front">{<>
-        <img  src={HighIcon} alt='High-Icon'/>
-        <span> High Temperature</span>
-      </>        
-      }</div>
-      <div className="back">{'23°'}</div>
-    </div>
-  </div>
-</div>
-        </>
-    )
-}
- 
-export default Prueba;
+
 

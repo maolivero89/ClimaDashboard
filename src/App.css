@@ -4,17 +4,16 @@
  border-radius: 15px;
 }
 
-.AppT {
-  text-align: center;
-  background-color: #465EFB;
- border-radius: 15px;
-}
+
 
 .Clima .Transito {
   flex: 1 1 0%;
   padding:10px ;
+  display: block;
   
 }
+
+
 
 .GridClima{
     display: grid;
@@ -71,8 +70,8 @@
 
 .Temperatura3{
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows:1fr;
   gap: 10px;
  
   align-items: center;
@@ -95,6 +94,25 @@
 
     
 } 
+
+.TarjetaClima2{
+  margin:  20px 5px;
+  border-radius: 15px;
+  position: absolute;    
+  border: solid #2a9d8f;
+  width: 2fr;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items:center;
+  cursor: pointer;
+  position: relative;    
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;   
+
+  
+} 
+
 
 
 

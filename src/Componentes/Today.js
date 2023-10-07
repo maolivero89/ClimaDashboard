@@ -3,6 +3,9 @@ import LinesChart from './ChartBar';
 import HighTemp from './HighTemperature';
 import LowTemp from './LowTemperature';
 import ActualyTemp from './ActualyTemperature';
+import CondicionClima from './CondicionClima';
+
+
 
 
 
@@ -21,13 +24,16 @@ function Today() {
                  <LowTemp/>
                 </div>
                 <div className='TarjetaClima'>
-                  <ActualyTemp/>
+                  <CondicionClima/>
                 </div>        
                </div>
 
               <div className='Temperatura3'>
-                <div className='TarjetaClima' style={{width:"600px", height:"230px"}}>
+                <div className='TarjetaClima2' style={{width:"600px", height:"230px"}}>
                   <LinesChart/>
+                </div>
+                <div className='TarjetaClima'>
+                  <ActualyTemp/>
                 </div>
               </div> 
             </div>
