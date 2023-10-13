@@ -1,10 +1,11 @@
 import '../App.css';
 import AirQ from '../Icons/wi_dust-wind.svg'
-import Aire from '../Aire.json'
 
-function AirQuality() {
 
-    const aqi = Aire.hourly.european_aqi[13]
+function AirQuality({calidadAire}) {
+
+    let aqi = calidadAire['current']['us_aqi']
+    let aqiUni= calidadAire['current_units']['pm10']
 
     function CalidadDeAire() {
         if (aqi >= 0 && aqi <= 50 ) {
@@ -29,7 +30,7 @@ function AirQuality() {
         <>
             <img className='Icon' src={AirQ} alt='Humidity'/>
             <span>Calidad del Aire: {CalAire}</span>
-            <span>{aqi}</span> 
+            <span>{aqi}{aqiUni}</span> 
         </>
     )
 }

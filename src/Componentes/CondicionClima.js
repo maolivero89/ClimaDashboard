@@ -1,19 +1,19 @@
 import React from "react";
 import '../App.css'
-import data from '../data.json'
-import InfoCodigoClima from '../CodigosClima.json'
 
-function CondicionClima() {
 
-    const CodigoClima = data.daily.weathercode[0].toString();
-    const ConditionClima = InfoCodigoClima[CodigoClima];
+function CondicionClima({datosEstadoClima, estadoClimaIconos}) {
 
+    const codigoClima = datosEstadoClima['daily']['weathercode'];
+
+    let estadoClimaHoy = estadoClimaIconos[codigoClima]['name'];
+    let iconoHoy = estadoClimaIconos[codigoClima]['icons'];
     return (
 <>
     <div> 
         <p>Estado del Clima</p>       
-        {ConditionClima?.name}
-        <img src={ConditionClima?.icons} alt={ConditionClima?.name}/>
+        {estadoClimaHoy}
+        <img src={iconoHoy} alt={estadoClimaHoy}/>
     </div>
         
 

@@ -14,6 +14,7 @@ function Highlights() {
 
         const [datosClima, setDatosClima] = useState(null);
         const [loading, setLoading] = useState(true);
+        const [datosAire, setDatosAire] = useState(null);
       
         useEffect(() => {
           setLoading(true);
@@ -24,8 +25,16 @@ function Highlights() {
             console.error(ex);
           })
         }, [])
-
-console.log(datosClima);
+        
+        useEffect(() => {
+          setLoading(true);
+          fetch('https://air-quality-api.open-meteo.com/v1/air-quality?latitude=52.52&longitude=13.41&current=us_aqi,pm10&hourly=pm10&timezone=America%2FSao_Paulo').then(resp => resp.json()).then(data => {
+            setDatosAire(data);
+            setLoading(false);
+          }).catch(ex => {
+            console.error(ex);
+          })
+        }, [])
 
 
 
@@ -61,7 +70,8 @@ console.log(datosClima);
             </div>
 
             <div className='TarjetaClima'>
-                <AirQuality/>
+            {!loading && datosAire && <AirQuality calidadAire = {datosAire}/>}
+            <div className="Spiner"> {loading && <SpinnerA />}</div>
             </div>
         </div>              
     </div>
