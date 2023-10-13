@@ -42,6 +42,16 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    
+}
+
+.Spiner{
+  
+    position:center;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+
 }
 
 .GridTemperatura{

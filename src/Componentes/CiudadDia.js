@@ -1,17 +1,34 @@
-import React from "react";
-import data from '../data.json'
+import React, { useEffect, useState } from "react";
+import SpinnerA from "./Spiner";
+
+
 
 function CuidadDia() {
 
-    const Fecha = String(data.current_weather.time).slice(0, 10)
-    const Hora = String(data.current_weather.time).slice(-5)
 
-    return(
+    const [datosClima, setDatosClima] = useState(null);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        setLoading(true);
+        fetch('https://api.open-meteo.com/v1/forecast?latitude=-33.1307&longitude=-64.3499&current=temperature_2m&hourly=temperature_2m&timezone=America%2FSao_Paulo').then(resp => resp.json()).then(data => {
+            setDatosClima(data);
+            setLoading(false);
+        }).catch(ex => {
+            console.error(ex);
+        })
+    }, [])
+
+
+
+    return (
         <>
-        <h2>Rio Cuarto, Cordoba</h2>
-        <h3>{Fecha +" "+ Hora}</h3>
-            
-            
+            <h3> <div> {!loading && datosClima && datosClima['timezone']}</div>
+                <div className="Spiner"> {loading && <SpinnerA/>}</div>
+                <div> {!loading && datosClima && (datosClima['current']['time']).slice(0, 10)}</div>
+                <div> {!loading && datosClima && (datosClima['current']['time']).slice(-5)}</div>
+            </h3>
+
         </>
     )
 } export default CuidadDia;

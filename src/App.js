@@ -4,6 +4,7 @@ import Highlights from './Componentes/Highlights';
 import React from 'react'
 import CuidadDia from './Componentes/CiudadDia';
 
+
 function App() {
   return (
     <div className='App'>
@@ -11,28 +12,28 @@ function App() {
 
       <div className='Clima'>
         <div>
-         <CuidadDia/>
+          <CuidadDia />
         </div>
         <div className='GridClima'>
           <div className='Clima1'>
-            <Today/>
+            <Today />
           </div>
-          
+
           <div className='Clima2'>
-            <Highlights/>
+            <Highlights />
           </div>
         </div>
       </div>
 
 
       <div className='AppT'>
-      <div className='Clima'>
-        <p>Proximamente DASHBOARD de Transito</p>
+        <div className='Clima'>
+          <p>Proximamente DASHBOARD de Transito</p>
+        </div>
+
       </div>
-        
-      </div>
-    
-      
+
+
 
     </div>
   );
