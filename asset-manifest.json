@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/ClimaDashboard/static/css/main.8bb5523a.css",
-    "main.js": "/ClimaDashboard/static/js/main.7611c4d7.js",
+    "main.css": "/ClimaDashboard/static/css/main.b5b334b1.css",
+    "main.js": "/ClimaDashboard/static/js/main.2384ab57.js",
     "static/js/787.838127ea.chunk.js": "/ClimaDashboard/static/js/787.838127ea.chunk.js",
     "static/media/wi_dust-wind.svg": "/ClimaDashboard/static/media/wi_dust-wind.63873863fbdc472a3fc7c00c6d1b4a4a.svg",
     "static/media/uv-index.svg": "/ClimaDashboard/static/media/uv-index.563b93403499d128af6604eff88c1d73.svg",
     "static/media/windsock.svg": "/ClimaDashboard/static/media/windsock.3059f71c53e7db22e4ed64528f4ed20d.svg",
     "static/media/humidity.svg": "/ClimaDashboard/static/media/humidity.351b7fd21e3ad9ff60fcec931aaf5152.svg",
-    "static/media/horizon.svg": "/ClimaDashboard/static/media/horizon.3f72438fe7c20c44f98b250461587dbd.svg",
     "static/media/thermometer-warmer.svg": "/ClimaDashboard/static/media/thermometer-warmer.38f0a903c75d463a595e4876428b7594.svg",
     "static/media/thermometer-colder.svg": "/ClimaDashboard/static/media/thermometer-colder.ac39425d1d129ae7155633667b7a0e07.svg",
     "static/media/sunrise.svg": "/ClimaDashboard/static/media/sunrise.ff3d5bf5648919aa708e1c73f54859d5.svg",
     "static/media/sunset.svg": "/ClimaDashboard/static/media/sunset.f20098fd0e370d9dfc8e49476f72e3b2.svg",
     "index.html": "/ClimaDashboard/index.html",
-    "main.8bb5523a.css.map": "/ClimaDashboard/static/css/main.8bb5523a.css.map",
-    "main.7611c4d7.js.map": "/ClimaDashboard/static/js/main.7611c4d7.js.map",
+    "main.b5b334b1.css.map": "/ClimaDashboard/static/css/main.b5b334b1.css.map",
+    "main.2384ab57.js.map": "/ClimaDashboard/static/js/main.2384ab57.js.map",
     "787.838127ea.chunk.js.map": "/ClimaDashboard/static/js/787.838127ea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8bb5523a.css",
-    "static/js/main.7611c4d7.js"
+    "static/css/main.b5b334b1.css",
+    "static/js/main.2384ab57.js"
   ]
 }
