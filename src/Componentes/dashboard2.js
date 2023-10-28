@@ -46,7 +46,7 @@ function Mapa({ loading, transportData }) {
 
     return (
 
-        <MapContainer center={[-34.599722, -58.381944]} zoom={25} scrollWheelZoom={true}>
+        <MapContainer center={[-34.599722, -58.381944]} zoom={10} scrollWheelZoom={true}>
             <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
