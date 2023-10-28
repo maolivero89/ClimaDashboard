@@ -3,6 +3,8 @@ import Today from './Componentes/Today';
 import Highlights from './Componentes/Highlights';
 import React from 'react'
 import CuidadDia from './Componentes/CiudadDia';
+import DashBoardTrans from './Componentes/DashboardTransito';
+import SeleccionarLinea from './Componentes/SelectTransport';
 
 
 function App() {
@@ -28,7 +30,9 @@ function App() {
 
       <div className='AppT'>
         <div className='Clima'>
-          <p>Proximamente DASHBOARD de Transito</p>
+          <h3>DashBoard de transito de la Ciudad de Buenos Aires</h3>     
+          <SeleccionarLinea/>     
+          {/* <DashBoardTrans/> */}
         </div>
 
       </div>

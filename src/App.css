@@ -4,6 +4,19 @@
  border-radius: 15px;
 }
 
+.AppT{
+background-color: #2a9d8f;
+text-align: center;
+border-radius: 15px;
+border-color: #465EFB;
+
+}
+
+.leaflet-container {
+  width: 100wh; 
+  height: 100vh;
+}
+
 
 
 .Clima .Transito {

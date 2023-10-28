@@ -66,7 +66,7 @@ function Today() {
             <img className='Icon' src={HighIcon} alt='High-Icon' />
             <div>
               <span> Temperatura maxima: </span>
-              {!loading && datosClima && datosClima['daily']['temperature_2m_max']}
+              {!loading && datosClima && datosClima['daily']['temperature_2m_max'] +'  '+ datosClima['daily_units']['temperature_2m_max']}
               <div className="Spiner"> {loading && <SpinnerA />}</div>
             </div>
           </div>
@@ -74,7 +74,7 @@ function Today() {
             <img className='Icon' src={LowIcon} alt='Low-Icon' />
             <div>
               <span> Temperatura minima: </span>
-              {!loading && datosClima && datosClima['daily']['temperature_2m_min']}
+              {!loading && datosClima && datosClima['daily']['temperature_2m_min'] +'  '+datosClima['daily_units']['temperature_2m_min']}
               <div className="Spiner"> {loading && <SpinnerA />}</div>
             </div>
           </div>
@@ -85,7 +85,7 @@ function Today() {
         </div>
 
         <div className='Temperatura3'>
-          <div className='TarjetaClima2' style={{ width: "600px", height: "230px" }}>            
+          <div className='TarjetaClima2' style={{ width: "750px", height: "220px" }}>            
            {!loading && datosBarraClima && <LinesChart datosClima1={datosBarraClima} /> }    
            <div className="Spiner"> {loading && <SpinnerA />}</div>        
           </div>
@@ -93,7 +93,7 @@ function Today() {
           <img className='Icon' src={ActTemperature} alt='Temperature'/>
             <div>
               <span> Temperatura Actual </span>
-              {!loading && datosClima && datosClima['current']['temperature_2m']}
+              {!loading && datosClima && datosClima['current']['temperature_2m'] +'  '+datosClima['current_units']['temperature_2m']}
               <div className="Spiner"> {loading && <SpinnerA />}</div>
             </div>
           </div>
